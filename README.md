@@ -66,7 +66,7 @@
 ###
 
 <div data-importer="stats" align="center">
-    <img src="./stats.svg" height="250" alt="GitHub Stats" />  
+    <img src="https://raw.githubusercontent.com/josemagu13/Hi-There/main/stats.svg?v=29f39dc" height="250" alt="GitHub Stats" />
 </div>
 
 ###
