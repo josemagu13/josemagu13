@@ -30,7 +30,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/josemagu13/Hi-There/main/snake%20%281%29.svg" alt="Snake animation" />
+<img src="./snake%20%281%29.svg" alt="Snake animation" />
 
 
 ###
@@ -66,7 +66,7 @@
 ###
 
 <div data-importer="stats" align="center">
-    <img src="https://raw.githubusercontent.com/josemagu13/Hi-There/main/stats.svg?v=29f39dc" height="250" alt="GitHub Stats" />
+   <img src="./stats.svg" height="250" alt="GitHub Stats" /> 
 </div>
 
 ###
