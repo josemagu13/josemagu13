@@ -30,7 +30,8 @@
 
 ###
 
-file:///C:/Users/jgonzalezu/OneDrive%20-%20CORPORACION%20BATRES,%20SOCIEDAD%20ANONIMA/Escritorio/JOSE%20URIZAR/Git_GitHub/proyecto01/snake%20(1).svg>
+<img data-importer="snake" src="<img data-importer="snake" src="https://raw.githubusercontent.com/josemagu13/josemagu13/snake-output/snake.svg" alt="Snake animation" />" alt="Snake animation" />
+
 
 ###
 
