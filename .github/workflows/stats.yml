@@ -1,0 +1,32 @@
+name: Generate GitHub Stats
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats.svg
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=josemagu13&show_icons=true&theme=dracula
+          path: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Save stats.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GitHub stats card"
+            git push
+          fi
