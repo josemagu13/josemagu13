@@ -30,7 +30,7 @@
 
 ###
 
-<img data-importer="snake" src="<img data-importer="snake" src="https://raw.githubusercontent.com/josemagu13/josemagu13/snake-output/snake.svg" alt="Snake animation" />" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/josemagu13/Hi-There/main/snake%20%281%29.svg" alt="Snake animation" />
 
 
 ###
